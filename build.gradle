@@ -39,9 +39,10 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "maven.modrinth:valkyrien-skies:1.20.1-fabric-2.3.0-beta.5"
+	modImplementation "maven.modrinth:valkyrien-skies:1.20.1-fabric-2.4.10"
 	modImplementation "maven.modrinth:grappling-hook-mod-fabric:jVjsFtrx"
 	modImplementation "maven.modrinth:cloth-config:2xQdCMyG"
+	modApi "maven.modrinth:forge-config-api-port:v8.0.3-1.20.1-Fabric"
 	modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
 	
 }
